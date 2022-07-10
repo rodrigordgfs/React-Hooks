@@ -1,4 +1,5 @@
 import UseCallback from "./Hooks/useCallback";
+import UseContext from "./Hooks/useContext";
 import UseEffect from "./Hooks/useEffect";
 import UseMemo from "./Hooks/useMemo";
 import UseRef from "./Hooks/useRef";
@@ -13,6 +14,7 @@ export default function App() {
       <UseCallback />
       <UseMemo />
       <UseRef />
+      <UseContext />
     </div>
   );
 }
