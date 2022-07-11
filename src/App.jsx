@@ -1,3 +1,4 @@
+import CustomHook from "./Hooks/customHook";
 import UseCallback from "./Hooks/useCallback";
 import UseContext from "./Hooks/useContext";
 import UseContextUseReducer from "./Hooks/useContextUseReducer";
@@ -19,6 +20,7 @@ export default function App() {
       <UseContext />
       <UseReducer />
       <UseContextUseReducer />
+      <CustomHook />
     </div>
   );
 }
